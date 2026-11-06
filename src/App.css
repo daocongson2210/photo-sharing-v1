@@ -1,0 +1,19 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.main-topbar-buffer {
+  display: none;
+}
+
+.main-grid-item {
+  height: calc(100vh - 100px);
+  padding: 10px;
+  overflow-y: auto;
+}
